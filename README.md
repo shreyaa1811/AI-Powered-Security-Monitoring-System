@@ -1,8 +1,6 @@
 # AI Powered Security Monitoring System
 
-A hands-on cybersecurity demo that combines synthetic security logs, a trained attack detector, and a live Streamlit dashboard to simulate how a small SOC-style monitoring system could work.
-
-This project is not a production IDS. It is a realistic learning prototype built to show how an AI-assisted security workflow looks in practice: generate log events, classify them with a saved model, visualize the results, and ask an AI analyst questions about suspicious alerts.
+A hands-on cybersecurity demo that combines synthetic security logs, a trained attack detector, and a live Streamlit dashboard to simulate how a small SOC-style monitoring system could work. It is a realistic learning prototype built to show how an AI-assisted security workflow looks in practice: generate log events, classify them with a saved model, visualize the results, and ask an AI analyst questions about suspicious alerts.
 
 ## What makes this project interesting
 - It generates both normal and attack-like activity in real time.
