@@ -29,5 +29,5 @@ def generate_normal_logs(num=500) :
 
 if __name__ == "__main__" :
     df = generate_normal_logs(3000)
-    df.to_csv("c:\\Users\\18Shr\\Desktop\\Security System\\data\\normal_logs.csv",index=False)
+    df.to_csv("C:\path\to\your\project\data\normal_logs.csv",index=False)
     print("Normal logs generated and saved to ../data/normal_logs.csv")
