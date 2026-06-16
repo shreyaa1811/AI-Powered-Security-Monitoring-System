@@ -2,8 +2,8 @@ import pandas as pd
 import joblib
 from pipeline.preprocess import preprocess
 
-model = joblib.load("c:\\Users\\18Shr\\Desktop\\Security System\\Model Processing\\attack_detector.pkl")
-feature_cols = joblib.load("c:\\Users\\18Shr\\Desktop\\Security System\\Model Processing\\feature_columns.pkl")
+model = joblib.load("Model Processing/attack_detector.pkl")
+feature_cols = joblib.load("Model Processing/feature_columns.pkl")
 
 def predict(log_dict) :
     df = pd.DataFrame([log_dict])
